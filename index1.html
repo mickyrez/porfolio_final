@@ -1,0 +1,188 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+
+      <style>
+    @font-face {
+    font-family: 'IconMoon';
+    src: url('fonts/icomoon.eot');
+    src: url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+         url('fonts/icomoon.woff') format('woff'),
+         url('fonts/icomoon.ttf') format('truetype'),
+         url('fonts/icomoon.svg#IconMoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+    li {
+      list-style-type: none;
+    }
+    [data-icon]:before {
+      font-family: 'IconMoon';
+      content: attr(data-icon);
+      speak: none;
+      padding: 10px;
+    }
+
+
+.icon-alone {
+  color: #bebebe;
+  font-size: 1.8rem;
+}
+  </style>
+  </head>
+  <body style="background-image:url('images/stardust.png');">
+<div class="wrap">
+  <!-- body content here -->
+  <div class="contain-to-grid sticky" data-options="sticky_on: large">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <!-- Title Area -->
+      <li class="name">
+        <h1>
+          <a href="#">
+            Michael Gutierrez
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+
+
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="divider"></li>
+          <div id="social" style="display: inline;">
+            <ul id="social">
+              <a href="http://www.linkedin.com/profile/view?id=287152167" class="icon-alone">
+                <li>
+                  <span data-icon="&#xe600;"><strong class="show-for-small-only">LinkedIn</strong></span>
+                </li>
+              </a>
+              <a href="" class="icon-alone">
+                <li>
+                  <span aria-hidden="true" data-icon="&#xe601;"><strong class="show-for-small-only">Twitter</strong></span>
+                </li>
+              </a>
+              <a href="" class="icon-alone">
+                <li>
+                  <span aria-hidden="true" data-icon="&#xe602;"><strong class="show-for-small-only">Google +</strong></span>
+                </li>
+              </a>
+              <a href="#" class="icon-alone" data-reveal-id="mailModal">
+                <li>
+                  <span aria-hidden="true" data-icon="&#xe604;"><strong class="show-for-small-only">Email</strong></span>
+                </li>
+              </a>
+            </ul>
+          </div>
+      </ul>
+    </section>
+  </nav>
+  </div>
+
+<div id="mailModal" class="reveal-modal" data-reveal>
+  <h2></h2>
+  <p class="lead">Email</p>
+    <form data-abide>
+        <label>Name
+          <input type="text" required placeholder="Please enter your name...">
+        </label>
+        <label>Email
+          <input type="email" required placeholder="Please enter your email address...">
+        </label>
+        <label>Subject
+          <input type="text" placeholder="Please enter your subject...">
+        </label>
+        <label>Message
+          <textarea required placeholder="Please enter your message..."></textarea>
+        </label>
+         <button type="submit">Submit</button>
+
+      </form>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div class="row">
+  <dl class="tabs vertical large-3 columns" data-tab  style="margin-top: 20px;">
+    <dd class="active"><a href="#panel1a">Home</a></dd>
+    <dd><a href="#panel2a">Bio</a></dd>
+    <dd><a href="#panel3a">Blog</a></dd>
+    <dd><a href="#panel4a">Contact</a></dd>
+  </dl>
+  <div class="tabs-content vertical large-6 columns" style="background-color: white; margin-top: 20px;">
+    <div class="content active" id="panel1a">
+    <h1 id="panel1h">Home</h1>
+<div class="row" >
+<ul class="small-block-grid-1 medium-block-grid-2" >
+  <li><a class="th" href="http://cityinstitute.com.au/22market/">
+  <img src="images/22market.png"></a></li>
+  <li><a class="th" href="http://cityinstitute.com.au/22market/">
+  <img src="images/22market.png"></a></li>
+  <li><a class="th" href="http://cityinstitute.com.au/22market/">
+  <img src="images/22market.png"></a></li>
+  <li><a class="th" href="http://cityinstitute.com.au/22market/">
+  <img src="images/22market.png"></a></li>
+</ul>
+</div>
+    </div>
+    <div class="content" id="panel2a">
+    <h1 id="panel2h">About Me</h1>
+      <p>My name is Michael Gutierrez and I am a Web Developer. Ever since I can remember I have been interested in computers and what they are capable of. I am always striving to push the boundaries and Web Development is the perfect environment to do so.<br> 
+      It all started when I was introduced to a trial version of Adobe Dreamweaver when I was 10 years old. I was fascinated by hyperlinks and the fact that you could display information in so many different and interactive ways.</p><br>
+      <p>When I made my first website I was so excited that I showed everyone that I knew and the positive reinforcement I received then led me to persue my passion. <br>
+      I made several web sites in my free time throughout highschool but I spent most of my time with photo manipulation in Adobe Photoshop and dabbled in some animation.</p><br>
+      <p>
+      Upon completing the HSC, while everyone else was still confused about their ambitions for the future, I was wholehearted in my decision to continue my studies in Web Development and obtain a prospective career in this field.</p> 
+      <p>
+      I originally anticipated studying at the University of Wollongong, but as they did not have a course specific to my interests, I decided to do a Diploma of Information Technology (Multimedia) at Wollongong TAFE. <br>
+      I felt this course was more suitable to the field of IT that I wished to explore, so I pressed through the 18 month course in only one year, and luckily by then, the University of Wollongong had just released a Web Design and Development Major for the Bachelor of Information Technology course, which I have completed.<br></p>
+
+      <p>
+      I am concerned with the balance between design that is beautiful, design that is functional, and design that is intelligent. I challenge myself to achieve the finest relation between those three in every project. Work that embodies all of these qualities sensibly can be enjoyed timelessly.</p></p>
+    </div>
+    <div class="content" id="panel3a">
+    <h1 id="panel3h">Blog</h1>
+
+    </div>
+    <div class="content" id="panel4a">
+    <h1 id="panel4h">Contact Form</h1>
+      <form data-abide>
+        <label>Name
+          <input type="text" required placeholder="Please enter your name...">
+        </label>
+        <label>Email
+          <input type="email" required placeholder="Please enter your email address...">
+        </label>
+        <label>Subject
+          <input type="text" placeholder="Please enter your subject...">
+        </label>
+        <label>Message
+          <textarea required placeholder="Please enter your message..."></textarea>
+        </label>
+         <button type="submit">Submit</button>
+
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<footer class="footer">
+  <p>© 2013 Michael Gutierrez</p>
+  <span class="footer-links"><a href="#panel2a">Bio</a></span>
+  <span class="footer-links"><a href="">Previous Work</a></span>
+  <span class="footer-links"><a href="">Blog</a></span>
+  <span class="footer-links"><a href="">Contact</a></span>
+</footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
